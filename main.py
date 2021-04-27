@@ -14,7 +14,7 @@ from playsound import playsound
 #get secrets
 if os.path.exists('my_secrets.py'):
     import my_secrets
-    os.environ['api_key'] = my_secrets.apikey
+    os.environ['api_key'] = my_secrets.openweathermap_apikey
 
 #get the weather
 forcast = functions.GetWeather(logging)
