@@ -1,0 +1,6 @@
+my_secrets.py
+__pycache__*
+env*
+logs*
+output*
+current_weather.mp3*
